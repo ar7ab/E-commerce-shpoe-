@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
@@ -14,7 +14,7 @@ import bannerkids from "./assets/imgs/bannerkids.png";
 const App = () => {
   return (
     <main className="bg-primary text-tertiary">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,7 +35,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </main>
   );
 };
