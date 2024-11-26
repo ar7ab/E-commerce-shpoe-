@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -26,8 +27,8 @@ export default {
         },
       },
       backgroundImage: {
-        hero: "url('/E-commerce-shpoe-/src/assets/imgs/bgecom.png')",
-        banneroffer: "url('/E-commerce-shpoe-/src/assets/imgs/banneroffer.png')",
+        hero: "url('/src/assets/imgs/bgecom.png')",
+        banneroffer: "url('/src/assets/imgs/banneroffer.png')",
       }
       ,      
       screens: {
