@@ -26,9 +26,10 @@ export default {
         },
       },
       backgroundImage: {
-        hero: "url('/src/assets/imgs/bgecom.png')", 
-        banneroffer: "url('/src/assets/imgs/banneroffer.png')",
-      },      
+        hero: "url('/E-commerce-shpoe-/src/assets/imgs/bgecom.png')",
+        banneroffer: "url('/E-commerce-shpoe-/src/assets/imgs/banneroffer.png')",
+      }
+      ,      
       screens: {
         xs: '400px',
         '3xl': '1680px',
